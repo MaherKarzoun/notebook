@@ -1,0 +1,33 @@
+body { padding: 0;margin :0; }
+p ,h1,h2,h3,h4 { margin: 0; }
+textarea { width: 90%; }
+#background{ padding:0;margin:0; height:250px; position:relative; }
+#background-img{padding-right:10px;width: 100%;height: 100%;background-repeat: no-repeat;}
+#background-img h1{ font-style:italic; font-size: 70px; text-align: center;color: white; }
+.morning{ background-image: url("../pic/gdmorning.jpg");}
+.afternoon{background-image: url("../pic/gdafternoon.jpg");}
+.evening{background-image: url("../pic/gdevening.jpg");}
+.checked{position: absolute;top: 0;left:0;width: 20px;height: 100%;}
+
+#showTime{font-size:40px;position:absolute;bottom:0px;right:0px;color: white ;}
+
+
+.header{margin:20px 0 50px 25px ;padding-left:15px;}
+#insert{margin-bottom: 20px;padding: 5px 10px 5px 10px ;border-radius: 5px;font-size: 20px ;font-family: tahoma;}
+
+.note{border-bottom: 2px solid brown ;list-style: none;padding:10px;margin  : 20px 40px 0 0;background-color: #ffffb3}
+
+.note-header{height: 30px;position:relative;width: 100%;}
+.hidden{visibility: hidden;}
+.note-date{padding-top:5px;position: absolute;top: 0;left:40px;}
+.cancel{padding:0 5px;color:black ;font-size:20px; position:absolute;top:0;right:0;cursor:pointer;}
+.piriority0{background-color:#ff3300 ; color:white ; }
+.piriority1{background-color:#ff6633 ; color:white ; }
+.piriority2{background-color:#ff9f80 ; color:black ; }
+.piriority3{background-color:#ffd9cc ; color:black ; }
+
+.note-body{background-color: #ffffb3 ;font-size: 24px;font-family: tahoma ; }
+.line-through{text-decoration:line-through;}
+
+.note-footer{position:relative;height: 40px;}
+.note-footer button{cursor: pointer;font-size:18px;position:absolute;bottom:0;right: 0;background-color: red;color:white;}
